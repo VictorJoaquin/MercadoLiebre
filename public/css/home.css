@@ -1,3 +1,124 @@
-body{
-    background-color: blue;
+* {
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+header {
+    background-color: #eac926;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.busqueda_logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+#logo{
+    width: 100%;
+}
+.busqueda_logo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+#iBusqueda{
+    position: relative;
+    border: 1px solid #ebebeb;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.busqueda{
+    display: flex;
+}
+#bBusqueda{
+    padding: 0.5rem;
+}
+#bBusqueda i{
+    color: #666;
+    border-radius: 2px;
+}
+
+.compraCuotas{
+    text-align: center;
+    flex-basis: 30%;
+    margin: 20px 0px;
+}
+
+.navar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.navar a{
+    text-decoration: none;
+    color: black;
+}
+.navar ul{
+    list-style-type: none;
+}
+.navar ul li{
+    display: inline;
+    margin: 10px;
+}
+/*articulos*/
+.articulo{
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    transition: all 1s ease;
+    border-style:solid;
+    border-width: 2px;
+    border-color: black;
+}
+main img{
+    width: 60%;
+    
+}
+.ofertas {
+    display: flex;
+    margin: 10px;
+}
+.ultima_visita{
+    display: flex;
+    margin: 10px;
+}
+.text_nombre{
+    visibility: hidden;
+    transition: all 1s ease;
+}
+.articulo:hover .text_nombre{
+    visibility: visible;
+}
+.articulo:hover{
+    transform: scale(1.1);
+}
+h1{
+    padding-right: 20%;
+}
+
+
+.footer_1{
+    display: flex;
 }
