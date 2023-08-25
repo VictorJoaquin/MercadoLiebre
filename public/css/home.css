@@ -16,25 +16,14 @@ header {
 
 .busqueda_logo{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
+    margin-left: 4%;
+    margin-right: 5%;
 }
 
 #logo{
-    width: 100%;
-}
-.busqueda_logo{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 15px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    width: 150%
 }
 #iBusqueda{
-    position: relative;
     border: 1px solid #ebebeb;
     width: 100%;
     padding: 0.5rem;
@@ -42,7 +31,12 @@ header {
     font-size: 16px;
 }
 .busqueda{
+    margin-left: 500px;
     display: flex;
+    height: 30px;
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 #bBusqueda{
     padding: 0.5rem;
@@ -62,7 +56,8 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    margin: 15px;
+    margin: 10px;
+    font-size: 120%;
 }
 
 .navar a{
@@ -76,6 +71,10 @@ header {
     display: inline;
     margin: 10px;
 }
+.navar li{
+    padding: 5px;
+}
+
 /*articulos*/
 .articulo{
     margin-top: 10px;
@@ -114,11 +113,25 @@ main img{
 .articulo:hover{
     transform: scale(1.1);
 }
-h1{
-    padding-right: 20%;
+main h1{
+    padding: 20px;
+}
+main{
+
+    background: linear-gradient(0deg,#88b3fc 0%, white 100%);
 }
 
-
+footer{
+    background: #88b3fc;
+    height: 200px
+}
 .footer_1{
+    padding-top: 70px;
     display: flex;
+}
+.itemf{
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    margin-bottom: 35px;
 }

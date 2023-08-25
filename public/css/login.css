@@ -1,0 +1,30 @@
+.formularioLogin{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: linear-gradient(0deg, rgba(136,179,252,1) 0%, rgba(234,201,38,1) 100%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 1%;
+    transition: 1s;
+}
+.formularioLogin:hover{
+    transform: scale(1.1);
+}
+.itemLogin{
+    padding: 15px;
+    margin-top: 10px;
+  }
+  .formularioLogin input{
+    width: 70%;
+    height: 20px;
+  }
+  .formularioLogin button{
+    margin-left: auto;
+    margin-right: auto;
+    width: 17.5%;
+    margin-top: 10px;
+    height: 20px;
+    border-color: black;
+   background-color: ghostwhite;
+}
